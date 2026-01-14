@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿static void tambah ()  
+{
+    int a = 10, b = 2, c = 0;
+  
+    c = a + b;
+    Console.WriteLine($"{a} + {b} = {c}");
+}
